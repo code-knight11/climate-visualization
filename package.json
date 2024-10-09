@@ -1,0 +1,21 @@
+{
+    "name": "bane-of-my-existence",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "vite": "^5.4.8"
+    },
+    "dependencies": {
+      "bane-of-my-existence": "file:",
+      "leaflet": "^1.9.4",
+      "leaflet-velocity": "^2.1.4",
+      "simpleheat": "^0.4.0"
+    }
+  }
+  
