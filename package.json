@@ -4,18 +4,21 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-      "dev": "vite",
-      "build": "vite build",
-      "preview": "vite preview"
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
     },
     "devDependencies": {
-      "vite": "^5.4.8"
+        "dotenv": "^16.4.5",
+        "vite": "^5.4.8"
     },
     "dependencies": {
-      "bane-of-my-existence": "file:",
-      "leaflet": "^1.9.4",
-      "leaflet-velocity": "^2.1.4",
-      "simpleheat": "^0.4.0"
+        "axios": "^1.7.7",
+        "bane-of-my-existence": "file:",
+        "deck.gl": "^9.0.33",
+        "leaflet": "^1.9.4",
+        "leaflet-velocity": "^2.1.4",
+        "mapbox-gl": "^3.7.0",
+        "simpleheat": "^0.4.0"
     }
-  }
-  
+}
